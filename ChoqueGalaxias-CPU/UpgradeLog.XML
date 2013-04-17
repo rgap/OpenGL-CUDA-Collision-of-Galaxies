@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="ChoqueGalaxias">
+</Property><Property Name="Archivo de la solución" Value="C:\Users\Rivalino\Desktop\ChoqueGalaxias\ChoqueGalaxias.sln">
+</Property><Property Name="Archivo de opciones de usuario" Value="C:\Users\Rivalino\Desktop\ChoqueGalaxias\ChoqueGalaxias.suo">
+</Property><Property Name="Date" Value="jueves, 20 de diciembre de 2012">
+</Property><Property Name="Time" Value="06:00 a.m.">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="ChoqueGalaxias.sln" Description="La copia C:\Users\Rivalino\Desktop\ChoqueGalaxias\ChoqueGalaxias.sln.old del archivo se ha realizado correctamente">
+</Event><Event ErrorLevel="0" Project="" Source="ChoqueGalaxias.suo" Description="La copia C:\Users\Rivalino\Desktop\ChoqueGalaxias\ChoqueGalaxias.suo.old del archivo se ha realizado correctamente">
+</Event><Event ErrorLevel="0" Project="ChoqueGalaxias" Source="ChoqueGalaxias\ChoqueGalaxias.vcproj" Description="Converting project file 'C:\Users\Rivalino\Desktop\ChoqueGalaxias\ChoqueGalaxias\ChoqueGalaxias.vcproj'.">
+</Event><Event ErrorLevel="1" Project="ChoqueGalaxias" Source="ChoqueGalaxias\ChoqueGalaxias.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="ChoqueGalaxias" Source="ChoqueGalaxias\ChoqueGalaxias.vcproj" Description="Done converting to new project file 'C:\Users\Rivalino\Desktop\ChoqueGalaxias\ChoqueGalaxias\ChoqueGalaxias.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="ChoqueGalaxias" Source="ChoqueGalaxias\ChoqueGalaxias.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="ChoqueGalaxias.sln" Description="La solución se convirtió correctamente">
+</Event><Event ErrorLevel="3" Project="" Source="ChoqueGalaxias.sln" Description="Converted">
+</Event></UpgradeLog>

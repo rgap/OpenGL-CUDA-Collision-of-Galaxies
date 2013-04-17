@@ -1,0 +1,308 @@
+﻿Compilación iniciada a las 21/12/2012 06:28:12 p.m..
+     1>Proyecto "C:\Users\Rivalino\Desktop\COLISION_CUDA_FINAAAAAL\ChoqueGalaxias_GPU\Galaxia1\Galaxia1.vcxproj" en el nodo 2 (build destinos).
+     1>InitializeBuildStatus:
+         Se creará "Debug\GalaxiaColision_GPU.unsuccessfulbuild" porque se especificó "AlwaysCreate".
+       AddCudaCompileDeps:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.2\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.2\include" /I. /FIcuda_runtime.h /c C:\Users\Rivalino\Desktop\COLISION_CUDA_FINAAAAAL\ChoqueGalaxias_GPU\Galaxia1\Galaxia.cu 
+       AddCudaCompileDeps:
+       Se omitirá el destino "AddCudaCompileDeps" porque todos los archivos de salida están actualizados respecto a los archivos de entrada.
+       AddCudaCompilePropsDeps:
+       Se omitirá el destino "AddCudaCompilePropsDeps" porque todos los archivos de salida están actualizados respecto a los archivos de entrada.
+       AddCudaCompilePropsDeps:
+       Se omitirá el destino "AddCudaCompilePropsDeps" porque todos los archivos de salida están actualizados respecto a los archivos de entrada.
+       CudaBuild:
+         Compiling CUDA source file Galaxia.cu...
+         cmd.exe /C "C:\Users\Rivalino\AppData\Local\Temp\b171e60f0cce490ab03dc82cbf555a23.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.2\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2010 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.2\include"  -G  --keep-dir "Debug" -maxrregcount=0  --machine 32 --compile  -g    -Xcompiler "/EHsc /nologo /Od /Zi  /MDd  " -o "Debug\Galaxia.cu.obj" "C:\Users\Rivalino\Desktop\COLISION_CUDA_FINAAAAAL\ChoqueGalaxias_GPU\Galaxia1\Galaxia.cu"
+         
+         C:\Users\Rivalino\Desktop\COLISION_CUDA_FINAAAAAL\ChoqueGalaxias_GPU\Galaxia1>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.2\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2010 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.2\include"  -G  --keep-dir "Debug" -maxrregcount=0  --machine 32 --compile  -g    -Xcompiler "/EHsc /nologo /Od /Zi  /MDd  " -o "Debug\Galaxia.cu.obj" "C:\Users\Rivalino\Desktop\COLISION_CUDA_FINAAAAAL\ChoqueGalaxias_GPU\Galaxia1\Galaxia.cu" 
+         Galaxia.cu
+     1>C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(46): warning : variable "contador" was declared but never referenced
+         
+     1>C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(97): warning : variable "tempX" was declared but never referenced
+         
+     1>C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(98): warning : variable "tempY" was declared but never referenced
+         
+     1>C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(99): warning : variable "tempZ" was declared but never referenced
+         
+     1>C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(367): warning : reference is to variable "i"
+         (324): here -- under old for-init scoping rules it would have been variable "i"
+         (330): here
+         
+     1>C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(367): warning : reference is to variable "i"
+         (324): here -- under old for-init scoping rules it would have been variable "i"
+         (330): here
+         
+     1>C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(367): warning : reference is to variable "i"
+         (324): here -- under old for-init scoping rules it would have been variable "i"
+         (330): here
+         
+     1>C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(369): warning : reference is to variable "i"
+         (324): here -- under old for-init scoping rules it would have been variable "i"
+         (330): here
+         
+     1>C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(371): warning : reference is to variable "i"
+         (324): here -- under old for-init scoping rules it would have been variable "i"
+         (330): here
+         
+     1>C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(371): warning : reference is to variable "i"
+         (324): here -- under old for-init scoping rules it would have been variable "i"
+         (330): here
+         
+     1>C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(371): warning : reference is to variable "i"
+         (324): here -- under old for-init scoping rules it would have been variable "i"
+         (330): here
+         
+     1>C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(372): warning : reference is to variable "i"
+         (324): here -- under old for-init scoping rules it would have been variable "i"
+         (330): here
+         
+     1>C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(372): warning : reference is to variable "i"
+         (324): here -- under old for-init scoping rules it would have been variable "i"
+         (330): here
+         
+     1>C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(374): warning : reference is to variable "i"
+         (324): here -- under old for-init scoping rules it would have been variable "i"
+         (330): here
+         
+     1>C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(374): warning : reference is to variable "i"
+         (324): here -- under old for-init scoping rules it would have been variable "i"
+         (330): here
+         
+     1>C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(374): warning : reference is to variable "i"
+         (324): here -- under old for-init scoping rules it would have been variable "i"
+         (330): here
+         
+     1>C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(375): warning : reference is to variable "i"
+         (324): here -- under old for-init scoping rules it would have been variable "i"
+         (330): here
+         
+     1>C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(375): warning : reference is to variable "i"
+         (324): here -- under old for-init scoping rules it would have been variable "i"
+         (330): here
+         
+     1>C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(377): warning : reference is to variable "i"
+         (324): here -- under old for-init scoping rules it would have been variable "i"
+         (330): here
+         
+     1>C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(377): warning : reference is to variable "i"
+         (324): here -- under old for-init scoping rules it would have been variable "i"
+         (330): here
+         
+     1>C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(377): warning : reference is to variable "i"
+         (324): here -- under old for-init scoping rules it would have been variable "i"
+         (330): here
+         
+     1>C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(378): warning : reference is to variable "i"
+         (324): here -- under old for-init scoping rules it would have been variable "i"
+         (330): here
+         
+     1>C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(378): warning : reference is to variable "i"
+         (324): here -- under old for-init scoping rules it would have been variable "i"
+         (330): here
+         
+     1>C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(380): warning : reference is to variable "i"
+         (324): here -- under old for-init scoping rules it would have been variable "i"
+         (330): here
+         
+     1>C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(380): warning : reference is to variable "i"
+         (324): here -- under old for-init scoping rules it would have been variable "i"
+         (330): here
+         
+     1>C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(380): warning : reference is to variable "i"
+         (324): here -- under old for-init scoping rules it would have been variable "i"
+         (330): here
+         
+         tmpxft_000016c4_00000000-0_Galaxia.cudafe1.gpu
+         tmpxft_000016c4_00000000-5_Galaxia.cudafe2.gpu
+         Galaxia.cu
+     1>C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(46): warning : variable "contador" was declared but never referenced
+         
+     1>C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(97): warning : variable "tempX" was declared but never referenced
+         
+     1>C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(98): warning : variable "tempY" was declared but never referenced
+         
+     1>C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(99): warning : variable "tempZ" was declared but never referenced
+         
+     1>C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(367): warning : reference is to variable "i"
+         (324): here -- under old for-init scoping rules it would have been variable "i"
+         (330): here
+         
+     1>C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(367): warning : reference is to variable "i"
+         (324): here -- under old for-init scoping rules it would have been variable "i"
+         (330): here
+         
+     1>C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(367): warning : reference is to variable "i"
+         (324): here -- under old for-init scoping rules it would have been variable "i"
+         (330): here
+         
+     1>C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(369): warning : reference is to variable "i"
+         (324): here -- under old for-init scoping rules it would have been variable "i"
+         (330): here
+         
+     1>C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(371): warning : reference is to variable "i"
+         (324): here -- under old for-init scoping rules it would have been variable "i"
+         (330): here
+         
+     1>C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(371): warning : reference is to variable "i"
+         (324): here -- under old for-init scoping rules it would have been variable "i"
+         (330): here
+         
+     1>C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(371): warning : reference is to variable "i"
+         (324): here -- under old for-init scoping rules it would have been variable "i"
+         (330): here
+         
+     1>C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(372): warning : reference is to variable "i"
+         (324): here -- under old for-init scoping rules it would have been variable "i"
+         (330): here
+         
+     1>C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(372): warning : reference is to variable "i"
+         (324): here -- under old for-init scoping rules it would have been variable "i"
+         (330): here
+         
+     1>C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(374): warning : reference is to variable "i"
+         (324): here -- under old for-init scoping rules it would have been variable "i"
+         (330): here
+         
+     1>C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(374): warning : reference is to variable "i"
+         (324): here -- under old for-init scoping rules it would have been variable "i"
+         (330): here
+         
+     1>C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(374): warning : reference is to variable "i"
+         (324): here -- under old for-init scoping rules it would have been variable "i"
+         (330): here
+         
+     1>C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(375): warning : reference is to variable "i"
+         (324): here -- under old for-init scoping rules it would have been variable "i"
+         (330): here
+         
+     1>C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(375): warning : reference is to variable "i"
+         (324): here -- under old for-init scoping rules it would have been variable "i"
+         (330): here
+         
+     1>C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(377): warning : reference is to variable "i"
+         (324): here -- under old for-init scoping rules it would have been variable "i"
+         (330): here
+         
+     1>C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(377): warning : reference is to variable "i"
+         (324): here -- under old for-init scoping rules it would have been variable "i"
+         (330): here
+         
+     1>C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(377): warning : reference is to variable "i"
+         (324): here -- under old for-init scoping rules it would have been variable "i"
+         (330): here
+         
+     1>C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(378): warning : reference is to variable "i"
+         (324): here -- under old for-init scoping rules it would have been variable "i"
+         (330): here
+         
+     1>C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(378): warning : reference is to variable "i"
+         (324): here -- under old for-init scoping rules it would have been variable "i"
+         (330): here
+         
+     1>C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(380): warning : reference is to variable "i"
+         (324): here -- under old for-init scoping rules it would have been variable "i"
+         (330): here
+         
+     1>C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(380): warning : reference is to variable "i"
+         (324): here -- under old for-init scoping rules it would have been variable "i"
+         (330): here
+         
+     1>C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(380): warning : reference is to variable "i"
+         (324): here -- under old for-init scoping rules it would have been variable "i"
+         (330): here
+         
+         tmpxft_000016c4_00000000-0_Galaxia.cudafe1.cpp
+         tmpxft_000016c4_00000000-11_Galaxia.ii
+     1>C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(224): warning C4258: 'i' : se ha omitido la definición del bucle For; se ha utilizado la definición del ámbito de inclusión
+                 C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(171) : definición de 'i' omitida
+                 C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(167) : definición de 'i' utilizada
+     1>C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(367): warning C4258: 'i' : se ha omitido la definición del bucle For; se ha utilizado la definición del ámbito de inclusión
+                 C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(330) : definición de 'i' omitida
+                 C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(324) : definición de 'i' utilizada
+     1>C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(367): warning C4258: 'i' : se ha omitido la definición del bucle For; se ha utilizado la definición del ámbito de inclusión
+                 C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(330) : definición de 'i' omitida
+                 C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(324) : definición de 'i' utilizada
+     1>C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(367): warning C4258: 'i' : se ha omitido la definición del bucle For; se ha utilizado la definición del ámbito de inclusión
+                 C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(330) : definición de 'i' omitida
+                 C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(324) : definición de 'i' utilizada
+     1>C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(369): warning C4258: 'i' : se ha omitido la definición del bucle For; se ha utilizado la definición del ámbito de inclusión
+                 C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(330) : definición de 'i' omitida
+                 C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(324) : definición de 'i' utilizada
+     1>C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(371): warning C4258: 'i' : se ha omitido la definición del bucle For; se ha utilizado la definición del ámbito de inclusión
+                 C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(330) : definición de 'i' omitida
+                 C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(324) : definición de 'i' utilizada
+     1>C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(371): warning C4258: 'i' : se ha omitido la definición del bucle For; se ha utilizado la definición del ámbito de inclusión
+                 C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(330) : definición de 'i' omitida
+                 C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(324) : definición de 'i' utilizada
+     1>C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(371): warning C4258: 'i' : se ha omitido la definición del bucle For; se ha utilizado la definición del ámbito de inclusión
+                 C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(330) : definición de 'i' omitida
+                 C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(324) : definición de 'i' utilizada
+     1>C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(372): warning C4258: 'i' : se ha omitido la definición del bucle For; se ha utilizado la definición del ámbito de inclusión
+                 C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(330) : definición de 'i' omitida
+                 C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(324) : definición de 'i' utilizada
+     1>C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(372): warning C4258: 'i' : se ha omitido la definición del bucle For; se ha utilizado la definición del ámbito de inclusión
+                 C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(330) : definición de 'i' omitida
+                 C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(324) : definición de 'i' utilizada
+     1>C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(374): warning C4258: 'i' : se ha omitido la definición del bucle For; se ha utilizado la definición del ámbito de inclusión
+                 C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(330) : definición de 'i' omitida
+                 C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(324) : definición de 'i' utilizada
+     1>C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(374): warning C4258: 'i' : se ha omitido la definición del bucle For; se ha utilizado la definición del ámbito de inclusión
+                 C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(330) : definición de 'i' omitida
+                 C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(324) : definición de 'i' utilizada
+     1>C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(374): warning C4258: 'i' : se ha omitido la definición del bucle For; se ha utilizado la definición del ámbito de inclusión
+                 C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(330) : definición de 'i' omitida
+                 C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(324) : definición de 'i' utilizada
+     1>C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(375): warning C4258: 'i' : se ha omitido la definición del bucle For; se ha utilizado la definición del ámbito de inclusión
+                 C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(330) : definición de 'i' omitida
+                 C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(324) : definición de 'i' utilizada
+     1>C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(375): warning C4258: 'i' : se ha omitido la definición del bucle For; se ha utilizado la definición del ámbito de inclusión
+                 C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(330) : definición de 'i' omitida
+                 C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(324) : definición de 'i' utilizada
+     1>C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(377): warning C4258: 'i' : se ha omitido la definición del bucle For; se ha utilizado la definición del ámbito de inclusión
+                 C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(330) : definición de 'i' omitida
+                 C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(324) : definición de 'i' utilizada
+     1>C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(377): warning C4258: 'i' : se ha omitido la definición del bucle For; se ha utilizado la definición del ámbito de inclusión
+                 C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(330) : definición de 'i' omitida
+                 C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(324) : definición de 'i' utilizada
+     1>C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(377): warning C4258: 'i' : se ha omitido la definición del bucle For; se ha utilizado la definición del ámbito de inclusión
+                 C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(330) : definición de 'i' omitida
+                 C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(324) : definición de 'i' utilizada
+     1>C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(378): warning C4258: 'i' : se ha omitido la definición del bucle For; se ha utilizado la definición del ámbito de inclusión
+                 C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(330) : definición de 'i' omitida
+                 C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(324) : definición de 'i' utilizada
+     1>C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(378): warning C4258: 'i' : se ha omitido la definición del bucle For; se ha utilizado la definición del ámbito de inclusión
+                 C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(330) : definición de 'i' omitida
+                 C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(324) : definición de 'i' utilizada
+     1>C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(380): warning C4258: 'i' : se ha omitido la definición del bucle For; se ha utilizado la definición del ámbito de inclusión
+                 C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(330) : definición de 'i' omitida
+                 C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(324) : definición de 'i' utilizada
+     1>C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(380): warning C4258: 'i' : se ha omitido la definición del bucle For; se ha utilizado la definición del ámbito de inclusión
+                 C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(330) : definición de 'i' omitida
+                 C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(324) : definición de 'i' utilizada
+     1>C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(380): warning C4258: 'i' : se ha omitido la definición del bucle For; se ha utilizado la definición del ámbito de inclusión
+                 C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(330) : definición de 'i' omitida
+                 C:/Users/Rivalino/Desktop/COLISION_CUDA_FINAAAAAL/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(324) : definición de 'i' utilizada
+     1>c:\users\rivalino\desktop\colision_cuda_finaaaaal\choquegalaxias_gpu\galaxia1\galaxia.cu(355): warning C4700: se utilizó la variable local 'Fx' sin inicializar
+     1>c:\users\rivalino\desktop\colision_cuda_finaaaaal\choquegalaxias_gpu\galaxia1\galaxia.cu(357): warning C4700: se utilizó la variable local 'Fy' sin inicializar
+     1>c:\users\rivalino\desktop\colision_cuda_finaaaaal\choquegalaxias_gpu\galaxia1\galaxia.cu(359): warning C4700: se utilizó la variable local 'Fz' sin inicializar
+       CudaBuild:
+       Se omitirá el destino "CudaBuild" porque todos los archivos de salida están actualizados respecto a los archivos de entrada.
+       ClCompile:
+         Todas las salidas están actualizadas.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Rivalino\Desktop\COLISION_CUDA_FINAAAAAL\ChoqueGalaxias_GPU\Debug\GalaxiaColision_GPU.exe" /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.2\lib\Win32" cudart.lib glut32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\GalaxiaColision_GPU.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Rivalino\Desktop\COLISION_CUDA_FINAAAAAL\ChoqueGalaxias_GPU\Debug\GalaxiaColision_GPU.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Rivalino\Desktop\COLISION_CUDA_FINAAAAAL\ChoqueGalaxias_GPU\Debug\GalaxiaColision_GPU.lib" /MACHINE:X86 Debug\Galaxia.cu.obj
+         Debug\main.cu.obj
+         Debug\Graficar.obj
+         LINK : no se encontró C:\Users\Rivalino\Desktop\COLISION_CUDA_FINAAAAAL\ChoqueGalaxias_GPU\Debug\GalaxiaColision_GPU.exe o no lo generó el último vínculo incremental; ejecutando vínculo completo
+         Galaxia1.vcxproj -> C:\Users\Rivalino\Desktop\COLISION_CUDA_FINAAAAAL\ChoqueGalaxias_GPU\Debug\GalaxiaColision_GPU.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Rivalino\Desktop\COLISION_CUDA_FINAAAAAL\ChoqueGalaxias_GPU\Debug\GalaxiaColision_GPU.exe;#1" /manifest Debug\GalaxiaColision_GPU.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Se eliminará el archivo "Debug\GalaxiaColision_GPU.unsuccessfulbuild".
+         Aplicando tarea Touch a "Debug\GalaxiaColision_GPU.lastbuildstate".
+     1>Compilación del proyecto terminada "C:\Users\Rivalino\Desktop\COLISION_CUDA_FINAAAAAL\ChoqueGalaxias_GPU\Galaxia1\Galaxia1.vcxproj" (build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:13.06

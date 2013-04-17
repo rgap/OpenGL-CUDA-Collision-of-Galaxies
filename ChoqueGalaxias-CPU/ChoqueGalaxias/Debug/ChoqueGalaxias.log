@@ -1,0 +1,45 @@
+﻿Compilación iniciada a las 21/12/2012 06:45:29 p.m..
+     1>Proyecto "C:\Users\Rivalino\Desktop\COLISION_GALAXIAS_FINAL\ChoqueGalaxias_CPU\ChoqueGalaxias\ChoqueGalaxias.vcxproj" en el nodo 2 (build destinos).
+     1>InitializeBuildStatus:
+         Se creará "Debug\ChoqueGalaxias_CPU.unsuccessfulbuild" porque se especificó "AlwaysCreate".
+       AddCudaCompileDeps:
+       Se omitirá el destino "AddCudaCompileDeps" porque todos los archivos de salida están actualizados respecto a los archivos de entrada.
+       AddCudaCompileDeps:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.2\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.2\include" /I. /FIcuda_runtime.h /c C:\Users\Rivalino\Desktop\COLISION_GALAXIAS_FINAL\ChoqueGalaxias_CPU\ChoqueGalaxias\main.cu 
+       AddCudaCompilePropsDeps:
+       Se omitirá el destino "AddCudaCompilePropsDeps" porque todos los archivos de salida están actualizados respecto a los archivos de entrada.
+       AddCudaCompilePropsDeps:
+       Se omitirá el destino "AddCudaCompilePropsDeps" porque todos los archivos de salida están actualizados respecto a los archivos de entrada.
+       CudaBuild:
+       Se omitirá el destino "CudaBuild" porque todos los archivos de salida están actualizados respecto a los archivos de entrada.
+       CudaBuild:
+         Compiling CUDA source file main.cu...
+         cmd.exe /C "C:\Users\Rivalino\AppData\Local\Temp\eba306f75f144481b45e0a5a73189bda.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.2\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2010 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.2\include"  -G  --keep-dir "Debug" -maxrregcount=0  --machine 32 --compile  -g    -Xcompiler "/EHsc /nologo /Od /Zi  /MDd  " -o "Debug\main.cu.obj" "C:\Users\Rivalino\Desktop\COLISION_GALAXIAS_FINAL\ChoqueGalaxias_CPU\ChoqueGalaxias\main.cu"
+         
+         C:\Users\Rivalino\Desktop\COLISION_GALAXIAS_FINAL\ChoqueGalaxias_CPU\ChoqueGalaxias>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.2\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2010 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.2\include"  -G  --keep-dir "Debug" -maxrregcount=0  --machine 32 --compile  -g    -Xcompiler "/EHsc /nologo /Od /Zi  /MDd  " -o "Debug\main.cu.obj" "C:\Users\Rivalino\Desktop\COLISION_GALAXIAS_FINAL\ChoqueGalaxias_CPU\ChoqueGalaxias\main.cu" 
+         main.cu
+         tmpxft_00001b18_00000000-0_main.cudafe1.gpu
+         tmpxft_00001b18_00000000-5_main.cudafe2.gpu
+         main.cu
+         tmpxft_00001b18_00000000-0_main.cudafe1.cpp
+         tmpxft_00001b18_00000000-11_main.ii
+       ClCompile:
+         Todas las salidas están actualizadas.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Rivalino\Desktop\COLISION_GALAXIAS_FINAL\ChoqueGalaxias_CPU\Debug\ChoqueGalaxias_CPU.exe" /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.2\lib\Win32" cudart.lib glut32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\ChoqueGalaxias_CPU.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Rivalino\Desktop\COLISION_GALAXIAS_FINAL\ChoqueGalaxias_CPU\Debug\ChoqueGalaxias_CPU.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Rivalino\Desktop\COLISION_GALAXIAS_FINAL\ChoqueGalaxias_CPU\Debug\ChoqueGalaxias_CPU.lib" /MACHINE:X86 Debug\GalaxiaQT.cu.obj
+         Debug\main.cu.obj
+         Debug\Cuerpo.obj
+         Debug\Graficar.obj
+         LINK : no se encontró C:\Users\Rivalino\Desktop\COLISION_GALAXIAS_FINAL\ChoqueGalaxias_CPU\Debug\ChoqueGalaxias_CPU.exe o no lo generó el último vínculo incremental; ejecutando vínculo completo
+         ChoqueGalaxias.vcxproj -> C:\Users\Rivalino\Desktop\COLISION_GALAXIAS_FINAL\ChoqueGalaxias_CPU\Debug\ChoqueGalaxias_CPU.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Rivalino\Desktop\COLISION_GALAXIAS_FINAL\ChoqueGalaxias_CPU\Debug\ChoqueGalaxias_CPU.exe;#1" /manifest Debug\ChoqueGalaxias_CPU.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Se eliminará el archivo "Debug\ChoqueGalaxias_CPU.unsuccessfulbuild".
+         Aplicando tarea Touch a "Debug\ChoqueGalaxias_CPU.lastbuildstate".
+     1>Compilación del proyecto terminada "C:\Users\Rivalino\Desktop\COLISION_GALAXIAS_FINAL\ChoqueGalaxias_CPU\ChoqueGalaxias\ChoqueGalaxias.vcxproj" (build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:15.61

@@ -1,0 +1,116 @@
+﻿Compilación iniciada a las 21/12/2012 12:48:01 p.m..
+     1>Proyecto "C:\Users\Rivalino\Desktop\COLISION_GALAXIA_NUEVO\ChoqueGalaxias_GPU\Galaxia1\Galaxia1.vcxproj" en el nodo 2 (build destinos).
+     1>PrepareForBuild:
+         Creando directorio "C:\Users\Rivalino\Desktop\COLISION_GALAXIA_NUEVO\ChoqueGalaxias_GPU\Release\".
+       InitializeBuildStatus:
+         Se creará "Release\GalaxiaColision_GPU.unsuccessfulbuild" porque se especificó "AlwaysCreate".
+       AddCudaCompileDeps:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.2\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.2\include" /I. /FIcuda_runtime.h /c C:\Users\Rivalino\Desktop\COLISION_GALAXIA_NUEVO\ChoqueGalaxias_GPU\Galaxia1\Galaxia.cu 
+       AddCudaCompileDeps:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.2\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.2\include" /I. /FIcuda_runtime.h /c C:\Users\Rivalino\Desktop\COLISION_GALAXIA_NUEVO\ChoqueGalaxias_GPU\Galaxia1\main.cu 
+       AddCudaCompilePropsDeps:
+         Se encontró "CudaToolkitCustomDir".
+         Se encontró "AdditionalDeps".
+         Se encontró "CompileOut".
+         Se encontró "Include".
+         Se encontró "Keep".
+         Se encontró "KeepDir".
+         Se encontró "NvccCompilation".
+         Se encontró "NvccPath".
+         Se encontró "RequiredIncludes".
+         Se encontró "TargetMachinePlatform".
+         Se encontró "CInterleavedPTX".
+         Se encontró "CodeGeneration".
+         Se encontró "GPUDebugInfo".
+         Se encontró "MaxRegCount".
+         Se encontró "PtxAsOptionV".
+         Se encontró "AdditionalCompilerOptions".
+         Se encontró "Defines".
+         Se encontró "Emulation".
+         Se encontró "HostDebugInfo".
+         Se encontró "FastMath".
+         Se encontró "Optimization".
+         Se encontró "Runtime".
+         Se encontró "RuntimeChecks".
+         Se encontró "TypeInfo".
+         Se encontró "Warning".
+         Se encontró "AdditionalOptions".
+         Se encontró "CommandLineTemplate".
+       AddCudaCompilePropsDeps:
+         Se encontró "CudaToolkitCustomDir".
+         Se encontró "AdditionalDeps".
+         Se encontró "CompileOut".
+         Se encontró "Include".
+         Se encontró "Keep".
+         Se encontró "KeepDir".
+         Se encontró "NvccCompilation".
+         Se encontró "NvccPath".
+         Se encontró "RequiredIncludes".
+         Se encontró "TargetMachinePlatform".
+         Se encontró "CInterleavedPTX".
+         Se encontró "CodeGeneration".
+         Se encontró "GPUDebugInfo".
+         Se encontró "MaxRegCount".
+         Se encontró "PtxAsOptionV".
+         Se encontró "AdditionalCompilerOptions".
+         Se encontró "Defines".
+         Se encontró "Emulation".
+         Se encontró "HostDebugInfo".
+         Se encontró "FastMath".
+         Se encontró "Optimization".
+         Se encontró "Runtime".
+         Se encontró "RuntimeChecks".
+         Se encontró "TypeInfo".
+         Se encontró "Warning".
+         Se encontró "AdditionalOptions".
+         Se encontró "CommandLineTemplate".
+       CudaBuild:
+         Compiling CUDA source file Galaxia.cu...
+         cmd.exe /C "C:\Users\Rivalino\AppData\Local\Temp\424386fa05b545cc84fb1dcd1f0511b1.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.2\bin\nvcc.exe" -gencode=arch=compute_10,code=\"sm_10,compute_10\" --use-local-env --cl-version 2010 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.2\include"    --keep-dir "Release" -maxrregcount=0  --machine 32 --compile      -Xcompiler "/EHsc /nologo /Od /Zi  /MD  " -o "Release\Galaxia.cu.obj" "C:\Users\Rivalino\Desktop\COLISION_GALAXIA_NUEVO\ChoqueGalaxias_GPU\Galaxia1\Galaxia.cu"
+         
+         C:\Users\Rivalino\Desktop\COLISION_GALAXIA_NUEVO\ChoqueGalaxias_GPU\Galaxia1>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.2\bin\nvcc.exe" -gencode=arch=compute_10,code=\"sm_10,compute_10\" --use-local-env --cl-version 2010 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.2\include"    --keep-dir "Release" -maxrregcount=0  --machine 32 --compile      -Xcompiler "/EHsc /nologo /Od /Zi  /MD  " -o "Release\Galaxia.cu.obj" "C:\Users\Rivalino\Desktop\COLISION_GALAXIA_NUEVO\ChoqueGalaxias_GPU\Galaxia1\Galaxia.cu" 
+         Galaxia.cu
+     1>C:/Users/Rivalino/Desktop/COLISION_GALAXIA_NUEVO/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(46): warning : variable "contador" was declared but never referenced
+         
+     1>C:/Users/Rivalino/Desktop/COLISION_GALAXIA_NUEVO/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(145): error : identifier "atomicAdd" is undefined
+         
+     1>C:/Users/Rivalino/Desktop/COLISION_GALAXIA_NUEVO/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(279): warning : variable "Pxi" was declared but never referenced
+         
+     1>C:/Users/Rivalino/Desktop/COLISION_GALAXIA_NUEVO/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(279): warning : variable "Pyi" was declared but never referenced
+         
+     1>C:/Users/Rivalino/Desktop/COLISION_GALAXIA_NUEVO/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(279): warning : variable "Pzi" was declared but never referenced
+         
+     1>C:/Users/Rivalino/Desktop/COLISION_GALAXIA_NUEVO/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(279): warning : variable "Fx" was declared but never referenced
+         
+     1>C:/Users/Rivalino/Desktop/COLISION_GALAXIA_NUEVO/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(279): warning : variable "Fy" was declared but never referenced
+         
+     1>C:/Users/Rivalino/Desktop/COLISION_GALAXIA_NUEVO/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(279): warning : variable "Fz" was declared but never referenced
+         
+     1>C:/Users/Rivalino/Desktop/COLISION_GALAXIA_NUEVO/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(279): warning : variable "Mi" was declared but never referenced
+         
+     1>C:/Users/Rivalino/Desktop/COLISION_GALAXIA_NUEVO/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(280): warning : variable "dx" was declared but never referenced
+         
+     1>C:/Users/Rivalino/Desktop/COLISION_GALAXIA_NUEVO/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(280): warning : variable "dy" was declared but never referenced
+         
+     1>C:/Users/Rivalino/Desktop/COLISION_GALAXIA_NUEVO/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(280): warning : variable "dz" was declared but never referenced
+         
+     1>C:/Users/Rivalino/Desktop/COLISION_GALAXIA_NUEVO/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(280): warning : variable "dist2" was declared but never referenced
+         
+     1>C:/Users/Rivalino/Desktop/COLISION_GALAXIA_NUEVO/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(280): warning : variable "dist" was declared but never referenced
+         
+     1>C:/Users/Rivalino/Desktop/COLISION_GALAXIA_NUEVO/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(280): warning : variable "Fs" was declared but never referenced
+         
+     1>C:/Users/Rivalino/Desktop/COLISION_GALAXIA_NUEVO/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(280): warning : variable "Fsdx" was declared but never referenced
+         
+     1>C:/Users/Rivalino/Desktop/COLISION_GALAXIA_NUEVO/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(280): warning : variable "Fsdy" was declared but never referenced
+         
+     1>C:/Users/Rivalino/Desktop/COLISION_GALAXIA_NUEVO/ChoqueGalaxias_GPU/Galaxia1/Galaxia.cu(280): warning : variable "Fsdz" was declared but never referenced
+         
+         1 error detected in the compilation of "C:/Users/Rivalino/AppData/Local/Temp/tmpxft_00001a64_00000000-3_Galaxia.cpp1.ii".
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\BuildCustomizations\CUDA 4.2.targets(361,9): error MSB3721: El comando ""C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.2\bin\nvcc.exe" -gencode=arch=compute_10,code=\"sm_10,compute_10\" --use-local-env --cl-version 2010 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.2\include"    --keep-dir "Release" -maxrregcount=0  --machine 32 --compile      -Xcompiler "/EHsc /nologo /Od /Zi  /MD  " -o "Release\Galaxia.cu.obj" "C:\Users\Rivalino\Desktop\COLISION_GALAXIA_NUEVO\ChoqueGalaxias_GPU\Galaxia1\Galaxia.cu"" salió con el código 2.
+     1>Compilación del proyecto terminada "C:\Users\Rivalino\Desktop\COLISION_GALAXIA_NUEVO\ChoqueGalaxias_GPU\Galaxia1\Galaxia1.vcxproj" (build destinos) -- ERROR.
+
+ERROR al compilar.
+
+Tiempo transcurrido 00:00:05.94
